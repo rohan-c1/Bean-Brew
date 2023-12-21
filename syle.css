@@ -1,0 +1,14 @@
+body::before{
+    display: block;
+    content: "";
+    height: 50px;
+}
+
+.fixed-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 50px; /* Set the width and height to create a circle */
+    height: 50px;
+    border-radius: 50%;
+}
